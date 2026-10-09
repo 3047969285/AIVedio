@@ -1,0 +1,4 @@
+interface:
+  display_name: "短剧静帧"
+  short_description: "生成人物、场景、道具和起始帧静图，不进入即梦"
+  default_prompt: "使用 $short-drama-stills 按已接受的图片提示词和冻结关键帧生成静帧，并写入制作成果/images。"

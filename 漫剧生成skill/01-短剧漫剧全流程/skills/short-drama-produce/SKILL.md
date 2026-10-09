@@ -6,6 +6,8 @@ license: MIT
 
 # 确认后生产
 
+本技能负责静帧、配音和配乐的接口执行。真实视频不在这里生成：已有图片或视频要变成镜头成片时，交给 `$short-drama-jimeng`，由用户在即梦里完成这一次转换。
+
 本技能只负责把已经写好的生产规格安全送到运行环境配置的 adapter。图片提示词仍归
 `$short-drama-image-prompts`，视频提示词归 `$short-drama-video-prompts`，台词与录音表归
 `$short-drama-write`，声音身份归 `$short-drama-assets`。

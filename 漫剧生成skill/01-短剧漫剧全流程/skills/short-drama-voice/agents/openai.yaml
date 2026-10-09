@@ -1,0 +1,4 @@
+interface:
+  display_name: "短剧声音"
+  short_description: "绑定角色音色并生成对白音频，不进入即梦"
+  default_prompt: "使用 $short-drama-voice 为已有剧本台词绑定音色并生成对白音频。没有参考音频或已确认音色时保持待选型。"
