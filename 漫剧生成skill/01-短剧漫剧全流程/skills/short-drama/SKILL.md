@@ -1,6 +1,6 @@
 ---
 name: short-drama
-description: 基于文件系统初始化和继续短剧或漫剧项目，提供 creator-first 五文档路由、本地 Dashboard、制作形态与 Look Development 决策。用户提出“创建/继续短剧项目”“看进度/下一步”“做 Look Development”“打开 dashboard/短剧创作台”“导出制作资料”，或任务跨多个创作阶段时使用；明确的写作、资产、提示词、分镜、剪辑或审查请求由对应子 skill 直接处理。
+description: 基于文件系统初始化和继续短剧或漫剧项目，提供 creator-first 五文档路由、本地 Dashboard、制作形态与 Look Development 决策。用户提出“创建/继续短剧项目”“看进度/下一步”“做 Look Development”“打开 dashboard/短剧创作台”“导出制作资料”，或任务跨多个创作阶段时使用；明确的写作、资产、提示词、分镜、剪辑或审查请求由对应子 skill 直接处理。用户要自己去即梦出图出视频时，路由到 $short-drama-jimeng，不调用接口。
 license: MIT
 ---
 
@@ -26,7 +26,8 @@ license: MIT
 | 写资产图片提示词 | `$short-drama-image-prompts` → `图片提示词.md` |
 | 做镜头和冻结关键帧 | `$short-drama-storyboard` → `分镜.md` |
 | 写视频/时间线音乐提示词 | `$short-drama-video-prompts` → `视频提示词.md` |
-| 实际生成媒体 | `$short-drama-produce`，先预览，再显式确认，最后运行 |
+| 导出即梦投喂包，自己去即梦出图出视频 | `$short-drama-jimeng`。只编译可粘贴文件，不调用接口 |
+| 用已配置接口实际生成媒体 | `$short-drama-produce`，先预览，再显式确认，最后运行。用户声明自己去即梦时不要走这里 |
 | 把已生产的素材剪成成片 | `$short-drama-edit` → `剪辑单.md` 与 `制作成果/成片/` |
 | 审稿或校验 | `$short-drama-review`，仅在用户点名时 |
 | 初始化、Dashboard、归档点名文档 | 本技能 |

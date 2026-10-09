@@ -16,6 +16,7 @@ EXPECTED_SKILLS = {
     "short-drama-image-prompts",
     "short-drama-storyboard",
     "short-drama-video-prompts",
+    "short-drama-jimeng",
     "short-drama-produce",
     "short-drama-edit",
     "short-drama-review",
